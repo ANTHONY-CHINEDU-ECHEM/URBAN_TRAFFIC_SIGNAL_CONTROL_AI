@@ -1,0 +1,23 @@
+{
+  "n_seeds": 50,
+  "summary": {
+    "rl": {
+      "mean_total_delay": 16250.8,
+      "mean_stops": 5030.0,
+      "mean_side_street_max_wait": 4.9
+    },
+    "fixed_time": {
+      "mean_total_delay": 28305.5,
+      "mean_stops": 5580.2,
+      "mean_side_street_max_wait": 3.2
+    },
+    "max_pressure": {
+      "mean_total_delay": 11570.8,
+      "mean_stops": 4385.4,
+      "mean_side_street_max_wait": 3.9
+    }
+  },
+  "rl_delay_reduction_pct_vs_fixed_time": 42.59,
+  "rl_stops_reduction_pct_vs_fixed_time": 9.86,
+  "meets_18pct_delay_target": true
+}
